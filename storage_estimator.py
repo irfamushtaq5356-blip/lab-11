@@ -14,10 +14,8 @@ def main():
 
     total_mb, total_gb = estimate_storage(num_files, avg_size_mb)
 
-    print(f"Total storage needed: {total_mb:.2f} MB")
-    print(f"That is about {total_gb:.2f} GB")
+print(f"That is about {total_gb:.4f} GB")
+print(f"That is about {total_gb:.4f} GB")
 
 
 main()
-print (changes are made)
-changes are saved s
