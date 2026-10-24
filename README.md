@@ -1,4 +1,4 @@
-\# Storage Estimator
+\# Storage Estimator - Feature Version.
 
 
 
@@ -28,7 +28,7 @@ Input:
 
 
 
-def estimate\_storage(num\_files, avg\_size\_mb):
+def estimate\_storage(num\_files, avg\_size\_mb).
 
 &#x20;   total\_mb = num\_files \* avg\_size\_mb
 
@@ -56,7 +56,7 @@ def main():
 
 &#x20;   print(f"Total storage needed: {total\_mb:.2f} MB")
 
-&#x20;   print(f"That is about {total\_gb:.2f} GB")
+&#x20;   print(f"That is about {total\_gb:f} GB")
 
 
 
